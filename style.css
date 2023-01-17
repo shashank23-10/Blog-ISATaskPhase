@@ -58,6 +58,27 @@
   margin-left: 2rem;
 }
 
+/* --------------BACK 2 TOP------------------ */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 30px;
+  z-index: 2;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 /* -----------------FOOTER------------------- */
 footer {
   padding-top: 2rem;
