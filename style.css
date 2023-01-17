@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------TITLE BAR--------------- */
+.menu-bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0.5rem 1rem;
+  background-color: black;
+}
+.menu-bar img {
+  width: 2.5%;
+}
+.menu-bar .links {
+  margin-left: 38rem;
+}
+.menu-bar .links a {
+  font-size: 1.5rem;
+  margin-right: 3.6rem;
+  text-decoration: none;
+  color: white;
+}
+/* ---------------ARTICLE---------------- */
+.newsletter {
+  margin-left: 30%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.newsletter .subs {
+  background-color: aliceblue;
+  padding: 1rem 0rem 1rem 2rem;
+  border-radius: 2rem;
+}
+.newsletter .subs button {
+  margin-left: 6rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+/* ---------------ABOUT US-------------- */
+.about {
+  background-color: aliceblue;
+  width: 65%;
+  margin: 1rem 2rem;
+}
+.about h2 {
+  margin-left: 40%;
+}
+.about p {
+  padding: 0.5rem;
+}
+.about ul {
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+/* -----------------FOOTER------------------- */
+footer {
+  padding-top: 2rem;
+  background-color: black;
+  color: white;
+}
+footer .compartment {
+  display: flex;
+}
+footer h3 {
+  margin-left: 12rem;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+footer img {
+  margin-left: 2.4rem;
+  width: 9%;
+}
+footer ul {
+  margin-left: 12rem;
+  list-style: none;
+}
+footer .address p {
+  margin-left: 12rem;
+}
+footer .follow-us {
+  display: block;
+}
+footer .icons {
+  display: inline;
+  font-size: 1.5rem;
+  margin-left: 12rem;
+  cursor: pointer;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .creator {
+  padding-top: 1rem;
+  margin-left: 44%;
+}
+footer .copyright {
+  padding: 1rem 0rem;
+  margin-left: 40%;
+}
