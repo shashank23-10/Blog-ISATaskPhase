@@ -17,7 +17,7 @@
   width: 2.5%;
 }
 .menu-bar .links {
-  margin-left: 38rem;
+  margin-left: 34rem;
 }
 .menu-bar .links a {
   font-size: 1.5rem;
@@ -25,11 +25,47 @@
   text-decoration: none;
   color: white;
 }
-/* ---------------ARTICLE---------------- */
+.dark-mode {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+}
+
+/* -----------------BLOGS------------------ */
+.blogs {
+  margin-left: 10%;
+}
+.blogs h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+  margin-left: 40%;
+}
+.blogs img {
+  width: 16rem;
+  height: 9rem;
+}
+
+.row1,
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ---------------NEWSETTER---------------- */
 .newsletter {
-  margin-left: 30%;
+  margin-left: 35%;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+.newsletter h2 {
+  margin-left: 8%;
+  margin-bottom: 1rem;
 }
 .newsletter .subs {
   background-color: aliceblue;
@@ -72,6 +108,8 @@
   color: white;
   cursor: pointer;
   padding: 1rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 0.25rem;
   border-radius: 50%;
 }
@@ -89,7 +127,7 @@ footer .compartment {
   display: flex;
 }
 footer h3 {
-  margin-left: 12rem;
+  margin-left: 8rem;
   text-decoration: underline;
   margin-bottom: 0.5rem;
   font-size: 1.6rem;
@@ -99,11 +137,11 @@ footer img {
   width: 9%;
 }
 footer ul {
-  margin-left: 12rem;
+  margin-left: 8rem;
   list-style: none;
 }
 footer .address p {
-  margin-left: 12rem;
+  margin-left: 8rem;
 }
 footer .follow-us {
   display: block;
@@ -111,7 +149,7 @@ footer .follow-us {
 footer .icons {
   display: inline;
   font-size: 1.5rem;
-  margin-left: 12rem;
+  margin-left: 8rem;
   cursor: pointer;
 }
 footer a {
