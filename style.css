@@ -37,6 +37,41 @@
   border-radius: 50%;
 }
 
+/* ----------------BEFORE-BLOGS------------------ */
+.latest-img {
+  margin-top: 2rem;
+  width: 40rem;
+  height: 22.5rem;
+  border-radius: 1rem;
+}
+.top {
+  display: flex;
+}
+.staff-pics {
+  background-color: aliceblue;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  padding-right: 4rem;
+  margin-right: 4rem;
+}
+.heading-staff-pics {
+  display: flex;
+}
+.staff-pics i {
+  margin: 1.2rem 0rem 0rem 1rem;
+  font-size: h3;
+}
+.staff-pics h3 {
+  margin: 1rem 0rem 0rem 1rem;
+}
+.box {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.box p {
+  margin-bottom: 0.5rem;
+}
+
 /* -----------------BLOGS------------------ */
 .blogs {
   margin-left: 10%;
@@ -46,9 +81,11 @@
   margin: 2rem 0rem;
   margin-left: 40%;
 }
-.blogs img {
+
+.row1 img {
   width: 16rem;
   height: 9rem;
+  border-radius: 1rem;
 }
 
 .row1,
@@ -81,7 +118,8 @@
 .about {
   background-color: aliceblue;
   width: 65%;
-  margin: 1rem 2rem;
+  margin: 2rem 14rem;
+  padding: 2rem;
 }
 .about h2 {
   margin-left: 40%;
