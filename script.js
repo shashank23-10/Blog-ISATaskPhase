@@ -19,3 +19,10 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//Dark Mode Implementation
+(function () {
+  document.querySelector(".dark-mode").addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+  });
+})();
