@@ -68,32 +68,52 @@
   border-radius: 50%;
 }
 
+/* ----------------BODY------------------ */
+
+body {
+  background-color: var(--color-primary);
+}
+
 /* ----------------BEFORE-BLOGS------------------ */
-.latest-img {
-  margin-top: 2rem;
-  width: 40rem;
-  height: 22.5rem;
-  border-radius: 1rem;
+.blog .latest-img {
+  width: 100%;
+  height: 18rem;
+}
+.blog .blog-text h3 {
+  color: var(--color-grey-1);
+}
+.blog .blog-text h3:hover {
+  color: var(--color-secondary);
 }
 .top {
   display: flex;
+  margin-top: 2rem;
 }
 .staff-pics {
-  background-color: aliceblue;
-  margin-top: 2rem;
+  background-color: var(--color-grey-5);
   margin-left: 6rem;
-  padding-right: 4rem;
+  padding-right: 3rem;
   margin-right: 4rem;
+  padding-bottom: 2rem;
+  height: 100%;
 }
 .heading-staff-pics {
   display: flex;
 }
 .staff-pics i {
   margin: 1.2rem 0rem 0rem 1rem;
+  color: var(--color-grey-1);
   font-size: h3;
+}
+.staff-pics i:hover {
+  color: var(--color-secondary);
 }
 .staff-pics h3 {
   margin: 1rem 0rem 0rem 1rem;
+  color: var(--color-grey-1);
+}
+.staff-pics h3:hover {
+  color: var(--color-secondary);
 }
 .box {
   margin-top: 1rem;
@@ -101,6 +121,13 @@
 }
 .box p {
   margin-bottom: 0.5rem;
+}
+.staff-pics a {
+  text-decoration: none;
+  color: var(--color-grey-2);
+}
+.staff-pics a:hover {
+  color: var(--color-white);
 }
 
 /* -----------------BLOGS------------------ */
@@ -111,18 +138,67 @@
   font-size: 2rem;
   margin: 2rem 0rem;
   margin-left: 40%;
+  color: var(--color-grey-1);
 }
-
 .row1 img {
   width: 16rem;
   height: 9rem;
-  border-radius: 1rem;
 }
-
 .row1,
 .row2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: -4rem;
+}
+
+.blog {
+  position: relative;
+  background-color: var(--color-grey-5);
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.blog:hover {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+}
+.blog:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+}
+.blog img {
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  filter: grayscale(100%);
+  transition: all 0.4s ease-in-out;
+}
+
+.blog .blog-text {
+  margin-top: -7px;
+  padding: 1.1rem;
+  border-top: 8px solid var(--color-secondary);
+}
+.blog .blog-text h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  color: var(--color-grey-1);
+}
+.blog .blog-text h4:hover {
+  color: var(--color-secondary);
+}
+.blog .blog-text p {
+  color: var(--color-grey-2);
+  line-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* ---------------NEWSETTER---------------- */
@@ -134,9 +210,13 @@
 .newsletter h2 {
   margin-left: 8%;
   margin-bottom: 1rem;
+  color: var(--color-grey-1);
+}
+.newsletter span {
+  color: var(--color-grey-2);
 }
 .newsletter .subs {
-  background-color: aliceblue;
+  background-color: var(--color-grey-5);
   padding: 1rem 0rem 1rem 2rem;
   border-radius: 2rem;
 }
@@ -144,23 +224,32 @@
   margin-left: 6rem;
   padding: 1rem 2rem;
   border-radius: 2rem;
+  background-color: var(--color-secondary);
+  color: var(--color-grey-2);
+  cursor: pointer;
 }
 /* ---------------ABOUT US-------------- */
 .about {
-  background-color: aliceblue;
+  background-color: var(--color-grey-5);
   width: 65%;
   margin: 2rem 14rem;
   padding: 2rem;
 }
 .about h2 {
   margin-left: 40%;
+  color: var(--color-grey-1);
+}
+.about h2:hover {
+  color: var(--color-secondary);
 }
 .about p {
   padding: 0.5rem;
+  color: var(--color-grey-2);
 }
 .about ul {
   padding: 0.5rem;
   margin-left: 2rem;
+  color: var(--color-grey-2);
 }
 
 /* --------------BACK 2 TOP------------------ */
@@ -173,7 +262,7 @@
   font-size: 1rem;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: var(--color-secondary);
   color: white;
   cursor: pointer;
   padding: 1rem;
