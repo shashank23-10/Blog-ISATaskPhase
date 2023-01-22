@@ -12,6 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Blog</title>
   </head>
   <body>
@@ -82,21 +88,6 @@
                   href="https://www.instagram.com/p/CTPVUt2vmtY/"
                   target="_blank"
                   ><p>What is Human Augmentaion?</p></a
-                >
-                <a
-                  href="https://www.instagram.com/p/CSrMo8fhugO/"
-                  target="_blank"
-                  ><p>How to use Github Copilot?</p></a
-                >
-                <a
-                  href="https://www.instagram.com/p/CR1PlFULmiF/"
-                  target="_blank"
-                  ><p>What is Neuro Morphic Computing?</p></a
-                >
-                <a
-                  href="https://www.instagram.com/p/CQtSOGIrg_z/"
-                  target="_blank"
-                  ><p>Know more about Magnetic levitaion Train...</p></a
                 >
               </div>
             </div>
@@ -230,9 +221,13 @@
         </div>
         <div class="newsletter">
           <h2>Subscribe to our Newsletter</h2>
-          <span class="subs"
-            >Enter your email address... <button>Subscribe</button>
-          </span>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Enter your email address..."
+          />
+          <button>Subscribe</button>
         </div>
       </article>
       <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -271,7 +266,7 @@
           </ul>
         </div>
         <div class="follow-us">
-          <h3>Follow Us</h3>
+          <h3>Follow Us &nbsp&nbsp<i class="fa-solid fa-rss"></i></h3>
           <div class="icons">
             <a href="https://www.instagram.com/isa_manipal/" target="_blank"
               ><i class="fa-brands fa-instagram"></i
@@ -284,6 +279,9 @@
               target="_blank"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
+            <a href="https://www.youtube.com/@isamanipal2607" target="_blank">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
           </div>
         </div>
       </div>
