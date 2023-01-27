@@ -26,3 +26,17 @@ function topFunction() {
     document.body.classList.toggle("light-mode");
   });
 })();
+
+//Read More Button Implementation
+
+function readmoreFunction() {
+  var btnText = document.getElementById("read-more");
+  var more = document.getElementById("more");
+
+  if (more.style.display != "none") {
+    more.style.display = "none";
+    btnText.style.display = "none";
+    btnText.innerHTML = "... Read Less";
+    more.style.display = "inline";
+  }
+}

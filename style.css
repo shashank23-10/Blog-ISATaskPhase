@@ -214,6 +214,24 @@ article {
   padding-bottom: 1rem;
 }
 
+/* --------------READ MORE--------------- */
+.more {
+  display: none;
+}
+#read-more {
+  z-index: 2;
+  border: none;
+  outline: none;
+  background-color: var(--color-secondary);
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 47%;
+  margin-bottom: 2rem;
+}
+
 /* ---------------NEWSETTER---------------- */
 .newsletter {
   margin-left: 35%;
@@ -235,6 +253,7 @@ article {
   background-color: var(--color-primary);
   border-radius: 1rem;
   border-color: var(--color-grey-1);
+  outline: none;
 }
 .newsletter button {
   z-index: 1;
@@ -373,4 +392,45 @@ footer .creator {
 footer .copyright {
   padding: 1rem 0rem;
   margin-left: 40%;
+}
+
+/* -----------------RESPONSIVE CODE------------------- */
+
+/* @media screen and (max-width: 1960px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  html {
+    font-size: 100%;
+  }
+} */
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 58%;
+  }
+  .row1 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 15%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 660px) {
+  html {
+    font-size: 44.5%;
+  }
+}
+@media screen and (max-width: 545px) {
+  html {
+    font-size: 34.5%;
+  }
 }
